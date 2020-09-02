@@ -2,16 +2,16 @@
 class PipelineCli < Formula
   desc "SIGHUP Pipeline CLI"
   homepage "https://github.com/sighupio/pipeline-cli"
-  version "0.1.0-rc12"
+  version "0.1.0-rc13"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/sighupio/pipeline-cli/releases/download/v0.1.0-rc12/sighup-pipeline-darwin-amd64.tar.gz"
-    sha256 "dd5e512729bfde6a0faf0dfc5f397c395ebfc506bfc4f62c7d87ff150ff539fd"
+    url "https://github.com/sighupio/pipeline-cli/releases/download/v0.1.0-rc13/sighup-pipeline-darwin-amd64.tar.gz"
+    sha256 "dba46ac1ddac9ad25e3c3bc335bd8029be5f802a43238f309460fe90b56aa239"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/sighupio/pipeline-cli/releases/download/v0.1.0-rc12/sighup-pipeline-linux-amd64.tar.gz"
-      sha256 "2f3c73b5ad5f6d544990748907fe1e0bd899ce42c800c8cf88777e65a8b9e70f"
+      url "https://github.com/sighupio/pipeline-cli/releases/download/v0.1.0-rc13/sighup-pipeline-linux-amd64.tar.gz"
+      sha256 "004b7e3136ae92f5315e580525c50114b5250a0dca10f7ee951c156f5d8abbd4"
     end
   end
   
